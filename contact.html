@@ -1,44 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
+<!--Required Meta tags-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+		
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 <title>Contact | GiftNestCo</title>
 <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 <header class="site-header">
-<h1>GiftNestCo</h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="products.html">Products</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
-</nav>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+		<a href="index.html" class="navbar-brand">GiftNestCo</a>
+		<div class="container">
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="navbar-item"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item px-2">
+						<a href="index.html" class="nav-link active">Home</a>
+					</li>
+					<li class="nav-item px-2">
+						<a href="products.html" class="nav-link">Products</a>
+					</li>
+					<li class="nav-item px-2">
+						<a href="about.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item px-2">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </header>
-<section class="page-content">
-<h2>Contact Us</h2>
-<p>
-Have a question, bulk order request, or collaboration idea?
-We’d love to hear from you.
-</p>
-<div class="contact-details">
-<p><strong>Company:</strong> GiftNestCo</p>
-<p><strong>Email:</strong> contact@giftnestco.com</p>
-<p><strong>Phone:</strong> +1-XXX-XXX-XXXX</p>
-<p><strong>Location:</strong> Waterloo, ON</p>
-</div>
-<form class="contact-form">
-<label>Name</label>
-<input type="text" required />
-<label>Email</label>
-<input type="email" required />
-<label>Message</label>
-<textarea rows="5"></textarea>
-<button type="submit" class="btn primary">Send Message</button>
-</form>
-</section>
-<footer class="site-footer">
-<p>© 2026 GiftNestCo</p>
-</footer>
+
+<section id="contact" class="py-4 mb-3 bg-light">
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-9">
+				<div class="card">
+					<div class="card-header">
+						<h4> Contact Us </h4>
+						<p>Have a question, bulk order request, or collaboration idea?
+							We’d love to hear from you.
+						</p>
+					</div>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<label for="name">Company:</label>
+								<input type="text" class="form-control" value="GiftNestCo">
+							</div>
+							<div class="form-group">
+								<label for="email">Email:</label>
+								<input type="email" class="form-control" value="contact@giftnestco.com">
+							</div>
+							<div class="form-group">
+								<label for="bio">Phone:</label>
+								<textarea class="form-control" name="editor1">+1-XXX-XXX-XXXX</textarea>
+							</div>
+							<div class="form-group">
+								<label for="bio">Location:</label>
+								<textarea class="form-control" name="editor1">Waterloo, ON</textarea>
+							</div>
+						</form>
+					</div>
+					<div class="container mt-5">
+						<div class="row">
+							<div class="col-md-9">
+								<div class="card">
+									<div class="card-body">
+										<form action="">
+										<div class="form-group">
+												<label for="email">Name</label>
+												<input type="email" class="form-control">
+											</div>
+											<div class="form-group">
+												<label for="email">Email</label>
+												<input type="email" class="form-control">
+											</div>
+											<div class="form-group">
+												<label for="password">Message</label>
+												<input type="password" class="form-control">
+											</div>
+											<button class="btn btn-primary btn-block">Send Message</button>
+										</form>
+									</div>
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="actions" class="py-4 mb-3 bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 mx-auto">
+					
+				</div>						
+			</div>
+		</div>
+	</section>
+	
+	
+
+
+<footer id="main-footer" class="text-center text-white bg-dark mt-5 p-2">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p class="lead">
+					Copyright &copy; <span id="year"></span> GiftNestCo
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
