@@ -1,0 +1,125 @@
+body { 
+
+  margin: 0; 
+
+  font-family: Poppins, Arial, sans-serif; 
+
+  background-color: #FFF8F0; 
+
+  color: #2F4F4F; 
+
+} 
+
+  
+
+.site-header { 
+
+  background-color: #8B4513; 
+
+  color: #FFF; 
+
+  padding: 1rem 2rem; 
+
+  display: flex; 
+
+  justify-content: space-between; 
+
+  align-items: center; 
+
+} 
+
+  
+
+.site-header a { 
+
+  color: #FFF; 
+
+  margin-left: 1rem; 
+
+  text-decoration: none; 
+
+} 
+
+  
+
+.hero { 
+
+  padding: 4rem 2rem; 
+
+  text-align: center; 
+
+  background-color: #F5DEB3; 
+
+} 
+
+  
+
+.hero h2 { 
+
+  font-family: "Playfair Display", Georgia, serif; 
+
+} 
+
+  
+
+.btn { 
+
+  padding: 0.75rem 1.5rem; 
+
+  border-radius: 5px; 
+
+  text-decoration: none; 
+
+  margin: 0.5rem; 
+
+  display: inline-block; 
+
+} 
+
+  
+
+.primary { 
+
+  background-color: #8B4513; 
+
+  color: #FFF; 
+
+} 
+
+  
+
+.secondary { 
+
+  background-color: transparent; 
+
+  border: 2px solid #8B4513; 
+
+  color: #8B4513; 
+
+} 
+
+  
+
+.features, .product-highlight, .page-content { 
+
+  padding: 3rem 2rem; 
+
+  max-width: 900px; 
+
+  margin: auto; 
+
+} 
+
+  
+
+.site-footer { 
+
+  text-align: center; 
+
+  padding: 1rem; 
+
+  background-color: #8B4513; 
+
+  color: #FFF; 
+
+} 
